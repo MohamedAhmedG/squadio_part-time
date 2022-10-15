@@ -5,6 +5,7 @@ import { ProductInfoStyles, RatingWrraperStyle } from "Styles/ProductDetails";
 import PriceOfPiecesWrraper from "../PriceOfPiecesWrraper";
 import ProductColor from "../ProductColor";
 import ProductStorageCapacity from "../ProductStorageCapacity";
+import QuantityAndShipping from "../QuantityAndShipping";
 
 export default function ProductInfo() {
 	return (
@@ -34,6 +35,7 @@ export default function ProductInfo() {
 			<PriceOfPiecesWrraper />
 			<ProductColor />
 			<ProductStorageCapacity/>
+			<QuantityAndShipping/>
 		</ProductInfoStyles>
 	);
 }

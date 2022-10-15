@@ -46,11 +46,15 @@ export const ProductViewStyles = styled.section`
 	border: 1px solid #000;
 	width: 100%;
 `;
+
+// =====ProductInfo====
 export const ProductInfoStyles = styled.section`
 	border: 1px solid #000;
 	width: 100%;
 `;
+// =====ProductInfo====
 
+// =====Rating====
 export const RatingWrraperStyle = styled.section`
 	width: 100%;
 	display: flex;
@@ -64,6 +68,9 @@ export const RatingWrraperStyle = styled.section`
 		flex-direction: row;
 	}
 `;
+// =====Rating====
+
+// =====Price====
 export const PriceOfPiecesWrraperStyle = styled.section`
 	display: flex;
 	justify-content: space-between;
@@ -89,11 +96,12 @@ export const PriceStyle = styled.div`
 	font-size: clamp(18px, 1.5vw, 22px);
 	line-height: 32px;
 `;
+// =====Price====
 
+// =====ColorOption====
 export const ProductColorStyle = styled.div`
 	margin-bottom: ${theme.Sizes.SpaceBetweenSections};
 `;
-
 export const WrraperColorsOptionsStyle = styled(CommonStyleSpecifications)``;
 export const ColorOptionStyle = styled(CommonItemStyle)``;
 export const WrraperIcon = styled.div`
@@ -110,11 +118,12 @@ export const WrraperColor = styled.div`
 	color: ${theme.colours.primary};
 	font-family: ${theme.fonts.light};
 `;
+// =====ColorOption====
 
+// =====StorageCapacity====
 export const ProductStorageCapacityStyle = styled.div`
 	margin-bottom: ${theme.Sizes.SpaceBetweenSections};
 `;
-
 export const WrraperStorageCapacityStyle = styled(CommonStyleSpecifications)``;
 
 export const StorageCapacityStyle = styled(CommonItemStyle)`
@@ -130,3 +139,50 @@ export const StorageStyle = styled.div`
 		font-size: 12px;
 	}
 `;
+// =====StorageCapacity====
+
+// =====QuantityAndShipping====
+export const WrraprQuantityAndShipping = styled.div``;
+export const BoxQuantityAndShipping = styled.div`
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	gap: 10px;
+	margin-bottom: ${theme.Sizes.SpaceBetweenSections};
+	p {
+		font-size: 20px;
+		font-family: ${theme.fonts.medium};
+		&:first-child {
+			color: ${theme.colours.primary};
+		}
+		&:last-child {
+			color: ${theme.colours.red};
+		}
+	}
+`;
+
+export const ContainerCountStyle = styled.div`
+	gap: 27px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin-bottom: ${theme.Sizes.SpaceBetweenSections};
+`;
+export const ControllrCountStyle = styled.div`
+	background-color: ${theme.colours.grey};
+	border-radius: 60px;
+	padding: 3px 9px;
+	button {
+		color: ${theme.colours.DarkBlue};
+		background-color: transparent;
+		border: none;
+		font-size: 30px;
+		cursor: pointer;
+		padding: 0 20px;
+	}
+`;
+export const ValueCountStyle = styled.div`
+	font-size: 18px;
+	font-family: ${theme.fonts.medium};
+`;
+// =====QuantityAndShipping====
