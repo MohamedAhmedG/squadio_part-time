@@ -4,9 +4,11 @@ import {
 	HeaderWrraper,
 	LinksSection,
 	LogoStyle,
-	SearchSection,
+	SearchSectionStyle,
 } from "Styles/Layout/HeaderStyles";
 import { ReactComponent as Logo } from "Assets/Images/SVG/Logo.svg";
+import TabLinks from "./components/TabLinks";
+import SearchSection from "./components/SearchSection";
 export default function Header() {
 	return (
 		<HeaderStyles>
@@ -15,8 +17,12 @@ export default function Header() {
 					<LogoStyle>
 						<Logo />
 					</LogoStyle>
-					<SearchSection>SearchSection</SearchSection>
-					<LinksSection>LinksSection</LinksSection>
+					<SearchSectionStyle>
+						<SearchSection />
+					</SearchSectionStyle>
+					<LinksSection>
+						<TabLinks />
+					</LinksSection>
 				</HeaderWrraper>
 			</Container>
 		</HeaderStyles>
