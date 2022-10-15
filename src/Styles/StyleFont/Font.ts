@@ -5,11 +5,11 @@ import Poppins_Light_ttf from "Assets/Fonts/Poppins-Light.ttf";
 import Poppins_Light_woff from "Assets/Fonts/Poppins-Light.woff";
 import Poppins_Light_woff2 from "Assets/Fonts/Poppins-Light.woff2";
 
-import Poppins_Bold_eot from "Assets/Fonts/Poppins-Bold.eot";
-import Poppins_Bold_svg from "Assets/Fonts/Poppins-Bold.svg";
-import Poppins_Bold_ttf from "Assets/Fonts/Poppins-Bold.ttf";
-import Poppins_Bold_woff from "Assets/Fonts/Poppins-Bold.woff";
-import Poppins_Bold_woff2 from "Assets/Fonts/Poppins-Bold.woff2";
+import Poppins_SemiBold_eot from "Assets/Fonts/Poppins-SemiBold.eot";
+import Poppins_SemiBold_svg from "Assets/Fonts/Poppins-SemiBold.svg";
+import Poppins_SemiBold_ttf from "Assets/Fonts/Poppins-SemiBold.ttf";
+import Poppins_SemiBold_woff from "Assets/Fonts/Poppins-SemiBold.woff";
+import Poppins_SemiBold_woff2 from "Assets/Fonts/Poppins-SemiBold.woff2";
 
 import Poppins_Medium_eot from "Assets/Fonts/Poppins-Medium.eot";
 import Poppins_Medium_svg from "Assets/Fonts/Poppins-Medium.svg";
@@ -46,14 +46,14 @@ export const fonts = css`
 	}
 
 	@font-face {
-		font-family: "Poppins_Bold";
-		src: url(${Poppins_Bold_eot});
+		font-family: "Poppins_SemiBold";
+		src: url(${Poppins_SemiBold_eot});
 		src: local("Poppins_Bold"), local("Poppins_Bold"),
-			url(${Poppins_Bold_eot}) format("embedded-opentype"),
-			url(${Poppins_Bold_woff2}) format("woff2"),
-			url(${Poppins_Bold_woff}) format("woff"),
-			url(${Poppins_Bold_ttf}) format("truetype"),
-			url(${Poppins_Bold_svg}) format("svg");
+			url(${Poppins_SemiBold_eot}) format("embedded-opentype"),
+			url(${Poppins_SemiBold_woff2}) format("woff2"),
+			url(${Poppins_SemiBold_woff}) format("woff"),
+			url(${Poppins_SemiBold_ttf}) format("truetype"),
+			url(${Poppins_SemiBold_svg}) format("svg");
 		font-weight: normal;
 		font-style: normal;
 		font-display: swap;

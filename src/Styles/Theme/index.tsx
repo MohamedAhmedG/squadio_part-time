@@ -7,10 +7,14 @@ const theme = {
 		desktop: 1200,
 		largeDesktop: 1920,
 	},
+	Sizes: {
+		SpaceBetweenSections: "30px",
+	},
+
 	colours: {
 		primary: "#111111",
 		black: "#000000",
-		white: "#E5E5E5",
+		white: "#fff",
 		lightGrey: "#999CAD",
 		grey: "#ECF1F4",
 		DarkGrey: "#828282",
@@ -24,7 +28,7 @@ const theme = {
 	},
 	fonts: {
 		light: "Poppins_Light",
-		bold: "Poppins_Bold",
+		SemiBold: "Poppins_SemiBold",
 		medium: "Poppins_Medium",
 		regular: "Poppins_Regular",
 	},
