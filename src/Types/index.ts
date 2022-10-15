@@ -29,3 +29,8 @@ export interface IStorageData {
 	id: string;
 	label: string;
 }
+export interface IShippingOption {
+	id: string;
+	label: string;
+	info: string;
+}

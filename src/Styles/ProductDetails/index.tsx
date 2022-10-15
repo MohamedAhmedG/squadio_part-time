@@ -185,4 +185,82 @@ export const ValueCountStyle = styled.div`
 	font-size: 18px;
 	font-family: ${theme.fonts.medium};
 `;
+
+export const WrraperShippingOption = styled.div`
+	margin-bottom: ${theme.Sizes.SpaceBetweenSections};
+`;
+export const ContainerShippingOption = styled(CommonItemStyle)`
+	display: flex;
+	width: 100%;
+	margin-bottom: 10px;
+	@media (min-width: 576px) {
+		display: inline-flex;
+		width: 50%;
+	}
+	p {
+		&:first-child {
+			color: ${theme.colours.primary};
+			font-size: 18px;
+			font-family: ${theme.fonts.medium};
+		}
+		&:last-child {
+			color: ${theme.colours.DarkGrey};
+			font-family: ${theme.fonts.light};
+			font-size: 14px;
+		}
+	}
+`;
+export const WrraperProceedToOrderStyle = styled.div`
+	margin-bottom: ${theme.Sizes.SpaceBetweenSections};
+`;
+
+export const WrraperTotalPrice = styled.div`
+	display: flex;
+	gap: 10px;
+	margin-bottom: ${theme.Sizes.SpaceBetweenSections};
+	p {
+		font-family: ${theme.fonts.medium};
+		font-size: 24px;
+		&:last-child {
+			color: ${theme.colours.green};
+		}
+	}
+`;
+
+export const WrraperButtons = styled.div`
+	display: flex;
+	justify-content: flex-start;
+	flex-direction: column;
+	gap: 10px;
+	> :first-child {
+		background-color: ${theme.colours.green};
+	}
+	> :nth-child(2) {
+		background-color: ${theme.colours.DarkBlue_2};
+	}
+	> :last-child {
+		color: ${theme.colours.DarkGrey};
+		font-size: 12px;
+		font-family: ${theme.fonts.regular};
+	}
+	button {
+		color: ${theme.colours.white};
+		font-family: ${theme.fonts.SemiBold};
+		padding: 10px 20px;
+		font-size: 14px;
+		line-height: 26px;
+		border-radius: 10px;
+		border: none;
+		cursor: pointer;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		gap: 10px;
+	}
+
+	@media (min-width: 576px) {
+		align-items: center;
+		flex-direction: row;
+	}
+`;
 // =====QuantityAndShipping====

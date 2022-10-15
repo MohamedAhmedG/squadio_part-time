@@ -2,10 +2,10 @@ import ItemLabel from "components/Common/ItemLabel";
 import SectionHeader from "components/Common/SectionHeader";
 import Stars from "components/Common/Stars";
 import { ProductInfoStyles, RatingWrraperStyle } from "Styles/ProductDetails";
-import PriceOfPiecesWrraper from "../PriceOfPiecesWrraper";
-import ProductColor from "../ProductColor";
-import ProductStorageCapacity from "../ProductStorageCapacity";
-import QuantityAndShipping from "../QuantityAndShipping";
+import PriceOfPiecesWrraper from "./components/PriceOfPiecesWrraper";
+import ProductColor from "./components/ProductColor";
+import ProductStorageCapacity from "./components/ProductStorageCapacity";
+import QuantityAndShipping from "./components/QuantityAndShipping";
 
 export default function ProductInfo() {
 	return (
